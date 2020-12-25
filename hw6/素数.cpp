@@ -2,11 +2,11 @@
 int is_prime(int n)
 {
 	int j;
-	for(j=22;j<n;j++){
+	for(j=2;j<n;j++){
 	   if(n%j==0)
-	        return -1;
-	   else
 	        return 0;
+	   else
+	        return -1;
 	    }
 } 
 int main()
